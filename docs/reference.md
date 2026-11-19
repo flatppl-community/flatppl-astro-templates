@@ -161,8 +161,8 @@ Losses outside a selected response domain stay explicit.
 
 Velocity broadening is not implemented in 0.1. A flux-preserving convolution
 on $u=\log\lambda$ would act on $G(u)=\lambda F_\lambda(\lambda)$, with
-$G'(u)=\int k(u-v)G(v)dv$ and $\int k(u)du=1$, then return $F'_\lambda=G'/\lambda$.
-Convolving $F_\lambda$ directly on this grid does not in general preserve
+$G'(u)=\int k(u-v)G(v)dv$ and $\int k(u)du=1$, then return $`F'_\lambda=G'/\lambda`$.
+Convolving $`F_\lambda`$ directly on this grid does not in general preserve
 $\int F_\lambda d\lambda$. A discrete operator must state quadrature weights,
 kernel boundaries, and any losses; renormalizing away those losses changes
 the model. No finite-grid broadening convention is silently selected here.
